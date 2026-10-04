@@ -205,25 +205,25 @@ Open the url link provided in the terminal.
 
 The Crime Matrix project is organised into different folders and files to keep the application structured and easy to maintain.
 
-public/ – Contains publicly accessible images and other static assets.
-images/ – Stores images used in the website.
-assets/ – Stores other required static resources.
-src/ – Contains the main source code of the application.
-components/ – Contains reusable UI components.
-pages/ – Contains different pages/screens of the website.
-services/ – Contains service-related code such as data handling and API connections.
-data/ – Contains sample or predefined application data.
-styles/ – Contains CSS and styling files used to design the website.
-screenshots/ – Contains screenshots of important sections of the Crime Matrix website, such as:
-Login page
-Dashboard
-Case management
-Timeline
-Criminal network
-README.md – Contains complete information about the project, its features, setup, and usage.
-package.json – Contains project dependencies, scripts, and configuration details.
-package-lock.json – Keeps the exact versions of installed dependencies.
-.gitignore – Specifies files and folders that should not be uploaded to GitHub.
+public/ – Contains publicly accessible images and other static assets.<br>
+images/ – Stores images used in the website.<br>
+assets/ – Stores other required static resources.<br>
+src/ – Contains the main source code of the application.<br>
+components/ – Contains reusable UI components.<br>
+pages/ – Contains different pages/screens of the website.<br>
+services/ – Contains service-related code such as data handling and API connections.<br>
+data/ – Contains sample or predefined application data.<br>
+styles/ – Contains CSS and styling files used to design the website.<br>
+screenshots/ – Contains screenshots of important sections of the Crime Matrix website, such as:<br>
+Login page<br>
+Dashboard<br>
+Case management<br>
+Timeline<br>
+Criminal network<br>
+README.md – Contains complete information about the project, its features, setup, and usage.<br>
+package.json – Contains project dependencies, scripts, and configuration details.<br>
+package-lock.json – Keeps the exact versions of installed dependencies.<br>
+.gitignore – Specifies files and folders that should not be uploaded to GitHub.<br>
 
 
 # Team Members
