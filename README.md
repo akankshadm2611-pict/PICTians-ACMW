@@ -227,10 +227,10 @@ package-lock.json – Keeps the exact versions of installed dependencies.<br>
 
 
 # Team Members
-Sayali Patil 
-Akanksha Deshmukh
-Dnyaneshwari Kale
-Unnati Gandhi
+Sayali Patil <br>
+Akanksha Deshmukh<br>
+Dnyaneshwari Kale<br>
+Unnati Gandhi<br>
 
 #  Future Scope
 
