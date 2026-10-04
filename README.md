@@ -225,6 +225,7 @@ package.json – Contains project dependencies, scripts, and configuration detai
 package-lock.json – Keeps the exact versions of installed dependencies.
 .gitignore – Specifies files and folders that should not be uploaded to GitHub.
 
+
 # Team Members
 Sayali Patil 
 Akanksha Deshmukh
