@@ -206,20 +206,20 @@ Open the url link provided in the terminal.
 The Crime Matrix project is organised into different folders and files to keep the application structured and easy to maintain.
 
 public/ – Contains publicly accessible images and other static assets.
-  images/ – Stores images used in the website.
-  assets/ – Stores other required static resources.
+images/ – Stores images used in the website.
+assets/ – Stores other required static resources.
 src/ – Contains the main source code of the application.
-  components/ – Contains reusable UI components.
-  pages/ – Contains different pages/screens of the website.
-  services/ – Contains service-related code such as data handling and API connections.
-  data/ – Contains sample or predefined application data.
-  styles/ – Contains CSS and styling files used to design the website.
+components/ – Contains reusable UI components.
+pages/ – Contains different pages/screens of the website.
+services/ – Contains service-related code such as data handling and API connections.
+data/ – Contains sample or predefined application data.
+styles/ – Contains CSS and styling files used to design the website.
 screenshots/ – Contains screenshots of important sections of the Crime Matrix website, such as:
-  Login page
-  Dashboard
-  Case management
-  Timeline
-  Criminal network
+Login page
+Dashboard
+Case management
+Timeline
+Criminal network
 README.md – Contains complete information about the project, its features, setup, and usage.
 package.json – Contains project dependencies, scripts, and configuration details.
 package-lock.json – Keeps the exact versions of installed dependencies.
