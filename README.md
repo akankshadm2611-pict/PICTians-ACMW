@@ -72,6 +72,7 @@ Incidents
 Locations
 Investigation tasks
 Investigation progress
+
 3.3 FIR Registration and OCR
 
 Crime Matrix provides a complaint/FIR registration workflow.
@@ -80,13 +81,20 @@ Instead of entering every detail manually, an FIR can be scanned and OCR can ext
 
 This can reduce manual data entry and make the initial registration process faster.
 
-3.4 Timeline Reconstruction
+3.4 Fingerprint Resolution 
+
+Uses fingerprint data as a biometric identifier to help verify and distinguish individuals.
+Fingerprints can be linked with suspect or case records for faster identification.
+Helps investigators establish connections between a person and a crime or evidence.
+Supports secure and reliable identity verification during investigations.
+
+3.5 Timeline Reconstruction
 
 The timeline feature helps investigators understand what happened and when it happened.
 
 Important events can be arranged in chronological order so that the investigator can get a clear picture of the case.
 
-3.5 Evidence Relationship Graph
+3.6 Evidence Relationship Graph
 
 Crime investigations usually contain many pieces of evidence.
 
@@ -96,7 +104,7 @@ Evidence → Suspect → Incident → Location → Other entities
 
 This makes it easier to understand how different pieces of information are connected.
 
-3.6 Location Intelligence
+3.7 Location Intelligence
 
 Locations can provide important clues during an investigation.
 
@@ -104,58 +112,19 @@ Crime Matrix can help investigators analyze the locations connected with differe
 
 This can help identify useful geographical patterns.
 
-3.7 Hidden Connection Discovery
-
-Sometimes an important connection is not directly visible.
-
-For example, two suspects may have:
-
-Visited the same location
-Communicated with the same person
-Been connected to the same incident
-Shared another common entity
-
-Crime Matrix helps bring such possible connections to the investigator's attention.
-
-3.8 Suspicious Activity Score
-
-The system can provide a score based on available investigation indicators.
-
-This can help investigators decide which information may need more attention.
-
-However, the score is only an analytical indication. It does not mean that a person is guilty.
-
-3.9 Criminal Network Evolution
+3.8 Criminal Network Evolution
 
 Criminal networks can change over time.
 
 Crime Matrix can help investigators understand how relationships between different people or entities develop or change during an investigation.
 
-3.10 Contradiction Detection
-
-Different statements or records may sometimes contain conflicting information.
-
-Crime Matrix can highlight possible contradictions so that investigators can review them manually.
-
-For example:
-
-One record says a person was at Location A, while another statement indicates Location B at the same time.
-
-The system highlights the possible contradiction, while the investigator verifies it.
-
-3.11 Identity Resolution
-
-The same person may appear differently in different records because of spelling differences, incomplete information, or different identifiers.
-
-Identity Resolution helps identify possible matches between records.
-
-3.12 Communication Pattern Analysis
+3.9 Communication Pattern Analysis
 
 Communication information can sometimes reveal relationships between people.
 
 Crime Matrix can analyze available communication data to help investigators understand communication patterns and connections.
 
-3.13 Investigation Query Assistance
+3.10 Investigation Query Assistance
 
 Instead of manually searching through different parts of a case, an investigator can ask a question in normal language.
 
@@ -165,13 +134,13 @@ For example:
 
 The system can use the available case information to provide relevant results.
 
-3.14 Investigation Gap Detection
+3.11 Investigation Gap Detection
 
 Sometimes an investigation may have incomplete information or an area that needs further verification.
 
 Crime Matrix can highlight possible investigation gaps so that the investigator can review them.
 
-3.15 Automated Case Report
+3.12 Automated Case Report
 
 The system can use the available case information to help prepare a structured case report.
 
@@ -185,11 +154,11 @@ Frontend
 HTML
 CSS
 JavaScript / TypeScript
-React, if used
-Tailwind CSS, if used
+React,
+Tailwind CSS,
 Backend
-Node.js, if used
-API services, if used
+Node.js,
+API services,
 Database
 
 The actual database used by the project should be mentioned here.
@@ -227,49 +196,12 @@ Some possible enhancements are:
 Integration with authorized police databases.
 Integration with existing investigation systems.
 Better AI-based relationship analysis.
-Multilingual FIR processing.
-Better OCR for handwritten documents.
-Advanced location and geographical analysis.
 More advanced forensic evidence analysis.
 Mobile application for authorized officers.
-Real-time alerts.
-Advanced investigation dashboards.
-Better AI explainability.
 Stronger security and audit logging.
 Integration with authorized CDR and financial transaction systems.
 Large-scale deployment for police departments.
 
-Any real-world integration would require proper authorization, security controls, privacy protection, and legal approval.
-
-#  Limitations
-
-Crime Matrix is currently a prototype, so it may use sample or demonstration data.
-
-Some limitations include:
-
-AI results may not always be completely accurate.
-OCR accuracy depends on the quality of the document.
-AI-generated insights need human verification.
-Real police database integration requires official authorization.
-Production deployment would require extensive security testing.
-Large-scale deployment would require additional performance and scalability testing.
-
-Therefore, the prototype should not be directly used for real investigations without proper security, legal, and technical validation.
-
-#  Responsible Use of AI
-
-Crime Matrix is designed to support investigators, not replace them.
-
-For example, if the system identifies a possible connection between two suspects, it should be treated as a lead that needs to be verified—not as final proof.
-
-The system should therefore:
-
-Clearly present AI results as suggestions or insights.
-Allow investigators to verify the information.
-Avoid treating scores as proof of guilt.
-Protect sensitive investigation data.
-Reduce possible bias through testing and validation.
-Maintain proper access control and audit records.
 #  Working Source Code
 
 The final submission will include the complete working source code of the Crime Matrix prototype.
@@ -296,26 +228,3 @@ Database passwords
 Real confidential FIRs
 Real police investigation records
 Private personal information
-#  Sample Data
-
-For demonstration, Crime Matrix should use fictional or anonymized data.
-
-For example:
-
-Case ID: CJ-2026-0142
-Case Type: Sample Investigation
-Status: Under Investigation
-
-Names, phone numbers, addresses, financial information, and other sensitive information used in the demo should be fictional.
-
-#  License
-
-Crime Matrix is developed as an academic/prototype project.
-
-The final team can add the appropriate license depending on the requirements of the competition or institution.
-
-#  Acknowledgement
-
-Crime Matrix was developed to explore how AI, data analysis, OCR, relationship mapping, and secure information management can be used to support modern crime investigation.
-
-The main goal of the project is to make investigation information easier to organize and understand while keeping security, privacy, human verification, and responsible AI use at the center of the system.
