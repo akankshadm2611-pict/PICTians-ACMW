@@ -187,6 +187,50 @@ Git
 GitHub
 Web Browser
 
+# Installation & Setup Instructions
+
+First, download or clone the project from the project repository in VScode.
+git clone https://github.com/akankshadm2611-pict/PICTians-ACMW.git
+
+Open new terminal and select command prompt and run instruction
+npm install
+
+# How to run the project
+
+Now to run the project use the instruction 
+npm run dev
+Open the url link provided in the terminal.
+
+# Project Structure
+
+The Crime Matrix project is organised into different folders and files to keep the application structured and easy to maintain.
+
+public/ – Contains publicly accessible images and other static assets.
+  images/ – Stores images used in the website.
+  assets/ – Stores other required static resources.
+src/ – Contains the main source code of the application.
+  components/ – Contains reusable UI components.
+  pages/ – Contains different pages/screens of the website.
+  services/ – Contains service-related code such as data handling and API connections.
+  data/ – Contains sample or predefined application data.
+  styles/ – Contains CSS and styling files used to design the website.
+screenshots/ – Contains screenshots of important sections of the Crime Matrix website, such as:
+  Login page
+  Dashboard
+  Case management
+  Timeline
+  Criminal network
+README.md – Contains complete information about the project, its features, setup, and usage.
+package.json – Contains project dependencies, scripts, and configuration details.
+package-lock.json – Keeps the exact versions of installed dependencies.
+.gitignore – Specifies files and folders that should not be uploaded to GitHub.
+
+# Team Members
+Sayali Patil 
+Akanksha Deshmukh
+Dnyaneshwari Kale
+Unnati Gandhi
+
 #  Future Scope
 
 Crime Matrix can be further improved in the future.
